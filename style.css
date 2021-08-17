@@ -30,16 +30,26 @@ body{
     align-items: center;
 }
 
-.inicio{
+.desafio-think{
     background-color: #fff;
-    width: 800px;
     flex: 1;
     padding: 30px;
     margin: 30px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.inicio{
+    background-color: #fff;
+    flex: 1;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 10px;
+    display: flex;
 }
 
 .texto-inicio{
-    height: 100%;
     text-align: justify;
     padding: 40px;
 }
@@ -48,6 +58,22 @@ body{
     font-weight: bold;
     color: #e45a18;
     font-size: 60px;
+}
+
+.button-inicio{
+    border-radius: 20px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #e45a18;
+    color: #fff;
+    font-size: 15px;
+    border: 0px;
+    min-width: 200px;
+}
+
+.img-inicio{
+    width: 400px;
+    float: right;
 }
 
 .rodape{
