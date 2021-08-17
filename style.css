@@ -30,14 +30,23 @@ body{
     align-items: center;
 }
 
-.desafio-think{
+.form-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.col{
+    padding: 10px;
+    margin: 10px;
+}
+
+
+.conteudo-desafio{
     background-color: #fff;
     flex: 1;
     padding: 30px;
     margin: 30px;
     border-radius: 10px;
-    display: flex;
-    align-items: center;
 }
 
 .inicio{
