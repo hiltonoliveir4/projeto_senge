@@ -1,6 +1,6 @@
 async function captar_respostas(){
     try{    
-        const dia = "day3";
+        const dia = "day1";
 
         const questao1 = document.querySelector('input[name=questao1]:checked')?.value;
         const questao2 = document.querySelector('input[name=questao2]:checked')?.value;
@@ -75,4 +75,12 @@ async function vote (name, email, answers, dia){
 function validacaoEmail(email) {
     var re = /\S+@\S+\.\S+/;
     return re.test(email);
+}
+
+function saibamais(){
+    Swal.fire({
+        title: 'E tu ainda quer mais??!',
+        text: "Pois vai ter então. Basta mandar mensagem nas nossas redes sociais que vamos ter o maior prazer de tirar todas as dúvidas!",
+    });
+    return;
 }
