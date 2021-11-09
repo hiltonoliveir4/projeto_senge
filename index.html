@@ -2,26 +2,23 @@
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="style.css" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
       rel="stylesheet"
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
     <header>
       <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="container">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link" href="./index.html">INÍCIO</a>
-              <a class="nav-item nav-link" href="./dia1.html">DIA 1</a>
-              <a class="nav-item nav-link" href="./dia2.html">DIA 2</a>
-              <a class="nav-item nav-link" href="./dia3.html">DIA 3</a>
-            </div>
+        <div class="container">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="./index.html">INÍCIO</a>
+            <a class="nav-item nav-link" href="./quest.html">DIA 1</a>
           </div>
         </div>
       </nav>
@@ -54,9 +51,9 @@
               o vencedor irá receber 2 beijos, um abraço, um cheiro no cangote e
               um coco geladinho que eu mesmo faço questão de pegar.
             </p>
-            <button class="button-inicio" type="button"> Saiba mais! </button>
+            <button class="button-inicio" type="button" onclick="vote('hilton', 'teasae@teste.com', [0, 1, 2 ,3])"> Saiba mais! </button>
           </div>
-          <div>
+          <div class="imagem">
             <img class="img-inicio" src="./src/img-inicio.png" alt="think!">
           </div>
         </div>
@@ -79,11 +76,13 @@
             src="https://img.icons8.com/material-outlined/48/ffffff/whatsapp--v1.png"
         /></a>
       </div>
+      <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
       <script
         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"
       ></script>
+      <script src="./src/index.js"></script>
     </footer>
   </body>
 </html>
