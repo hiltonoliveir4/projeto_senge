@@ -186,4 +186,12 @@ body::-webkit-scrollbar-thumb {
         padding: 0px;
         margin: 20 0 0 0px;
     }
+
+    .form-row{
+        flex-direction: column;
+    }
+
+    .col{
+        margin: 2px;
+    }
 }
