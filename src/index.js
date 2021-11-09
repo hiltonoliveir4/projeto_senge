@@ -1,6 +1,6 @@
 async function captar_respostas(){
     try{    
-        const dia = "day1";
+        const dia = "day3";
 
         const questao1 = document.querySelector('input[name=questao1]:checked')?.value;
         const questao2 = document.querySelector('input[name=questao2]:checked')?.value;
@@ -65,7 +65,7 @@ async function captar_respostas(){
 async function vote (name, email, answers, dia){
     const dados = {name, email, answers, dia};
     try{
-        const {data} = await axios.post(`https://calm-eyrie-71316.herokuapp.com/vote/${dia}`, dados);
+        const {data} = await axios.post(`https://limitless-hamlet-45762.herokuapp.com/vote/${dia}`, dados);
         return data;
     } catch (e){
         return e.response.data;

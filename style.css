@@ -147,7 +147,6 @@ body::-webkit-scrollbar-thumb {
     padding-left: 15px;
     color: #666666;
     font-size: 20px;
-    text-align: justify;
 }
 
 .titulo3{
@@ -181,5 +180,10 @@ body::-webkit-scrollbar-thumb {
 
     .navbar-dark .navbar-nav .nav-link{
         font-size: 1.5em;
+    }
+
+    .inicio{
+        padding: 0px;
+        margin: 20 0 0 0px;
     }
 }
